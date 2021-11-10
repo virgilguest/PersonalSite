@@ -1,0 +1,105 @@
+﻿<!DOCTYPE HTML>
+<!--
+    Aerial by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+<head>
+    <title>Bierschwale Solutions</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+<body class="is-preload">
+
+    <div id="wrapper">
+        <div id="bg1"></div>
+        <div id="overlay"></div>
+        <div id="main">
+
+            <!-- Header -->
+            <header id="header">
+                <h1>Virgil Bierschwale</h1>
+                <p>Process Problems? &nbsp;&bull;&nbsp; I can fix them.</p>
+                <nav>
+                    <ul>
+                        <li><a href="https://twitter.com/VBierschwale" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="https://www.facebook.com/virgil.bierschwale.5" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                        <!--<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+
+                        <li><a href="https://github.com/virgilguest" class="icon brands fa-github"><span class="label">Github</span></a></li>
+                        <li><a href="mailto:vbiersch@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+                    </ul>
+                </nav>
+                <div>
+                    <a href="index.html" class="btn btn-primary">Home</a>
+                    <a href="resume.html" class="btn btn-primary">Resume</a>
+                    <a href="contact.html" class="btn btn-primary">Contact</a>
+                    <a href="classmates.html" class="btn btn-primary">Classmates</a>
+
+                </div>
+                <hr />
+                
+                    <div class="row">
+                        <!-- The action in the form defines where the form will send its information to. The method in a form defines how we are sending that information. GET will create a queryString http://amazon.com?product=lawnmowers&price=10, POST will submit the form as data in the HTTP request and it will not show up in the url in the browser. onsubmit fires off when the user clicks the button to submit the form, and will call a function we create called validateForm, passing the information from the user inputs into the validateForm function so we can use them. -->
+                        <form action="#" method="get" onsubmit="validateForm(event)">
+                            <!--<div class="col-sm-offset-2 col-sm-8">-->
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <!-- name attribute below will capture the input in a variable called name in the queryString in the url -->
+                                        <input type="text" id="tbName" name="name" class="form-control" placeholder="Name" />
+                                        <span id="rfvName" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" id="tbEmail" name="email" class="form-control" placeholder="Email" />
+                                        <span id="rfvEmail" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="text" id="tbSubject" name="subject" class="form-control" placeholder="Subject" />
+                                        <span id="rfvSubject" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <textarea id="tbMessage" name="message" class="form-control" placeholder="Message"></textarea>
+                                        <span id="rfvMessage" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-12">
+                                    <div class="form-group">
+                                        <input type="submit" class="btn btn-success" value="Send Message" />
+                                    </div>
+                                </div>
+                            <!--</div>-->
+                        </form>
+                    </div>
+
+            </header>
+
+            <!-- Footer -->
+            <footer id="footer">
+                <span class="text-white">
+                    &copy;
+                    <script>document.write(new Date().getFullYear())</script> Virgil Bierschwale All Rights Reserved. Design: <a href="http://html5up.net">HTML5 UP</a> Modified: Virgil Bierschwale.
+                </span>
+            </footer>
+
+        </div>
+    </div>
+    <script>
+        window.onload = function () { document.body.classList.remove('is-preload'); }
+        window.ontouchmove = function () { return false; }
+        window.onorientationchange = function () { document.body.scrollTop = 0; }
+    </script>
+</body>
+</html>
