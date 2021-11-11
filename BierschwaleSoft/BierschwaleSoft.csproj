@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="assets\css\fontawesome-all.min.css" />
     <Content Include="assets\css\images\0602105910.jpg" />
+    <Content Include="assets\css\images\50853220456_2a84384ee8_o.jpg" />
     <Content Include="assets\css\images\bg.jpg" />
     <Content Include="assets\css\images\downtown-boothbay-harbor-1500x609.jpg" />
     <Content Include="assets\css\images\ffg57-11061.jpeg" />
@@ -88,6 +89,7 @@
     <Content Include="assets\webfonts\fa-brands-400.svg" />
     <Content Include="assets\webfonts\fa-regular-400.svg" />
     <Content Include="assets\webfonts\fa-solid-900.svg" />
+    <Content Include="projects.html" />
     <Content Include="img\0602105910.jpg" />
     <Content Include="img\newHampshire.png" />
     <Content Include="img\pexels-sawyer-sutton-973049.jpg" />
